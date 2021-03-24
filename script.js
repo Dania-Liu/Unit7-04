@@ -9,7 +9,10 @@ function ages () {
   age = document.getElementById('age').value
   age = parseInt(age)
   date = document.getElementById('date').value
-  if (age > 12 && age < 21 || (date = 'Tuesday' || 'Thursday')) {
+  if (age > 12 && age < 21) {
+    document.getElementById('answer').innerHTML = 'You have received 50% off due to student pricing, congratulations.'
+  }
+  else if (date === 'Tuesday' || date === 'Thursday') {
     document.getElementById('answer').innerHTML = 'You have received 50% off due to student pricing, congratulations.'
   }
   else {
