@@ -1,0 +1,17 @@
+#background {
+  background-color: firebrick;
+}
+
+#heading {
+  text-align: center;
+  background-color: antiquewhite;
+  color: firebrick;
+}
+
+.text {
+  color: whitesmoke;
+}
+
+#answer {
+  background-color: crimson;
+}
